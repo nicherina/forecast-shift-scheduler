@@ -1,0 +1,12 @@
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+ortools>=9.8
+matplotlib>=3.8
+# Only needed for the automated Kaggle download (path A in scripts/
+# download_data.py). Manual web download (path B) or synthetic demo work
+# without it:
+# kaggle>=1.6
+# Optional: commercial solver (pip wheel includes a size-limited license, ~2000
+# variables/constraints — enough for the demo and small instances).
+# gurobipy>=11
